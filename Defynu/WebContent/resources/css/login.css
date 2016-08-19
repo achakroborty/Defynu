@@ -1,0 +1,118 @@
+
+.fancyContentBox, .cms-markdown blockquote {
+  position: relative;
+  overflow: visible;
+  border: 1px solid #ababab;
+  padding: 15px;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  .fancyContentBox p, .cms-markdown blockquote p {
+    margin: 10px 0; }
+  .fancyContentBox h2, .cms-markdown blockquote h2 {
+    font-size: 1.5em; }
+  .fancyContentBox > h3, .cms-markdown blockquote > h3, .fancyContentBox legend, .cms-markdown blockquote legend {
+    position: absolute;
+    margin-top: -1.5em;
+    margin-left: -5px;
+    font-size: 20px;
+    padding: 0 5px;
+    background: #fff; }
+	
+	.page-login .ff_password {
+  margin-bottom: 0; }
+  .page-login #newcustomer a {
+    margin-top: 1em; }
+    @media (max-width: 767px) {
+    .responsive .page-login #newcustomer a {
+      width: 100%; } }
+	@media (max-width: 767px) {
+  .responsive .ph-slide a, .responsive .ph-slide span {
+    font-size: 2em; }
+    .responsive .ph-slide .actionButton, .responsive .ph-slide .infoButton {
+      font-size: 3em; } }
+	  .required {
+    display: none; }
+	
+	 .required {
+    vertical-align: super;
+    color: red;
+    display: inline-block;
+    padding: 0 0.3em;
+    margin-top: -1em; }
+	 @media (max-width: 767px) {
+      .responsive .ph-slide form input, .responsive .ph-slide form input[type=text], .responsive .ph-slide form input[type=email] select, .responsive .ph-slide form textarea, .responsive .ph-slide form label, .responsive .ph-slide form span {
+        font-size: 2em; } }
+  @media (max-width: 959px) and (min-width: 768px) {
+      .responsive .ph-slide form input, .responsive .ph-slide form input[type=text], .responsive .ph-slide form input[type=email] select, .responsive .ph-slide form textarea, .responsive .ph-slide form label, .responsive .ph-slide form span {
+        font-size: 1em; } }
+
+		
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea {
+  box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ababab;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+  
+  
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], textarea {
+  -webkit-appearance: none;
+  padding: 0.85em;
+  font-size: 14px;
+  font-weight: 300;
+  border: 1px solid #ababab; }
+   input[type="text"].error, input[type="password"].error, input[type="email"].error, input[type="number"].error, textarea.error {
+    border: 1px solid #c10006; }
+	
+	
+	
+.fancyForm input[type="text"], .fancyForm input[type="password"], .fancyForm input[type="email"], .fancyForm input[type="number"], .fancyForm textarea {
+  float: left;
+  width: 100%;
+  clear: both; }
+  
+  .fancyForm label .required {
+    vertical-align: super;
+    color: red;
+    display: inline-block;
+    padding: 0 0.3em;
+    margin-top: -1em; }
+	
+	.customerforms .registerform .formrow label .required {
+    display: none; }
+	
+	
+	.customerforms .registerform .formrow input[type="text"], .customerforms .registerform .formrow input[type="password"] {
+    padding: 0.3em;
+    float: right;
+    width: 70%; }
+	
+	  .customerforms .registerform input[type="submit"], .customerforms .registerform input[type="button"] {
+    font-size: 1em;
+    float: right; }
+	.c-24 {
+	 text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: #555; }
+	
+	.c-24{ position: relative;
+  float: left;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px; }
+  
+  .hidden {
+  display: none; }
+  
+  .center {
+  text-align: center; }
+  
+   .message {
+    font-size: 0.8em; }
+	.message {
+    color: #49b253; }
+  
+  
